@@ -8,16 +8,18 @@ Install submodules before launch:
 git submodule update --init --recursive
 ```
 
-Do not forget to update commits of git submodules:
-In Fork:
+Do not forget to update commits of git submodules to point out most recent changes:
 
-1. Click on submodule in project navigator on left side
-2. Choose commit
-3. Commit changes in root repo.
+### In Fork
 
-[Fork](./Fork-git-submodules.png)
+1. Click on submodule in the project navigator on the left side
+2. Choose a commit
+3. Commit changes in the root repo.
 
-To launch:
+![Fork](./Fork-git-submodules.png)
+
+## Launch
+
 ```
 docker-compose build
 
