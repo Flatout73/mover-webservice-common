@@ -1,0 +1,6 @@
+[submodule "mover-backend"]
+	path = mover-backend
+	url = https://github.com/MoverTeam/mover-backend
+[submodule "mover-frontend"]
+	path = mover-frontend
+	url = https://github.com/MoverTeam/mover-frontend
