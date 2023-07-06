@@ -23,5 +23,9 @@ Do not forget to update commits of git submodules to point out most recent chang
 ```
 docker-compose build
 
+docker-compose down (add -v to wipe db) // optional to shutdown old containers
+
 docker-compose up
+
+docker-compose run migrate // optional to run db migrations (create tables)
 ```
