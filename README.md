@@ -15,6 +15,8 @@ In Fork:
 2. Choose commit
 3. Commit changes in root repo.
 
+[Fork](./Fork-git-submodules.png)
+
 To launch:
 ```
 docker-compose build
